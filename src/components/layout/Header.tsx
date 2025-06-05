@@ -3,6 +3,8 @@ import { Menu, X, Moon, Sun, Laptop } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useTheme } from '../../context/ThemeContext';
 import ThemeToggle from '../ui/ThemeToggle';
+import hackerLogo from './hacker.svg';
+import defaultLogo from './icon.svg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -65,22 +67,23 @@ const Header = () => {
 
   {/* Conditionally render SVG based on theme */}
   {theme === "theme5" ? (
-    <img
-      src="src/components/layout/hacker.svg"
-      alt="Hacker Logo"
-      width="55"
-      height="55"
-      className="relative z-10"
-    />
-  ) : (
-    <img
-      src="src/components/layout/icon.svg"
-      alt="Default Logo"
-      width="55"
-      height="55"
-      className="relative z-10"
-    />
-  )}
+  <img
+    src={hackerLogo}
+    alt="Hacker Logo"
+    width="55"
+    height="55"
+    className="relative z-10"
+  />
+) : (
+  <img
+    src={defaultLogo}
+    alt="Default Logo"
+    width="55"
+    height="55"
+    className="relative z-10"
+  />
+)}
+
 </div>
 
 }
