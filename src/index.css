@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+   --font-sans: 'IBM Plex Sans', 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+
+
+
+    /* Default font sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    
+    /* Animation speeds */
+    --animation-fast: 150ms;
+    --animation-normal: 300ms;
+    --animation-slow: 500ms;
+    
+    /* Border radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-full: 9999px;
+  }
+
+  [data-theme="theme5"] {
+  --font-sans: 'VT323', 'Fira Code', 'Courier New', 'Lucida Console', monospace;
+}
+
+
+  /* Theme 1: Orange & White */
+  [data-theme="theme1"] {
+    --primary: 255, 107, 1;
+    --primary-foreground: 255, 255, 255;
+    --secondary: 255, 255, 255;
+    --secondary-foreground: 53, 53, 53;
+    --accent: 53, 53, 53;
+    --accent-foreground: 255, 255, 255;
+    
+    --background: 250, 250, 250;
+    --background-secondary: 245, 245, 245;
+    --foreground: 20, 20, 20;
+    
+    --card: 255, 255, 255;
+    --card-foreground: 20, 20, 20;
+    
+    --success: 34, 197, 94;
+    --warning: 245, 158, 11;
+    --error: 239, 68, 68;
+    
+    --muted: 240, 240, 240;
+    --muted-foreground: 115, 115, 115;
+    
+    --border: 229, 231, 235;
+  }
+
+  /* Theme 2: Party Popper Vibe (Light Theme) */
+[data-theme="theme2"] {
+  --primary: 255, 64, 129;              /* Hot Pink */
+  --primary-foreground: 255, 255, 255;
+
+  --secondary: 255, 235, 59;            /* Party Yellow */
+  --secondary-foreground: 40, 40, 40;
+
+  --accent: 255, 111, 0;                /* Neon Orange */
+  --accent-foreground: 255, 255, 255;
+
+  --background: 255, 245, 235;          /* Peach Fizz */
+  --background-secondary: 255, 250, 240; /* Champagne */
+
+  --foreground: 40, 40, 40;             /* Neutral dark text */
+
+  --card: 255, 255, 255;                /* Bright white cards */
+  --card-foreground: 40, 40, 40;
+
+  --success: 0, 200, 83;                /* Bright Green */
+  --warning: 255, 193, 7;               /* Golden Yellow */
+  --error: 255, 61, 61;                 /* Confetti Red */
+
+  --muted: 255, 228, 225;               /* Rosy Blush */
+  --muted-foreground: 120, 120, 120;
+
+  --border: 255, 204, 204;              /* Soft pink borders */
+
+  /* Optional: background gradient for body or sections */
+  --gradient-background: linear-gradient(135deg, rgba(255, 230, 230, 1), rgba(255, 248, 220, 1), rgba(255, 235, 59, 0.3));
+}
+
+
+  /* Theme 3: Purple & Dark Blue */
+  [data-theme="theme3"] {
+    --primary: 101, 82, 208;
+    --primary-foreground: 255, 255, 255;
+    --secondary: 23, 32, 61;
+    --secondary-foreground: 255, 255, 255;
+    --accent: 125, 109, 221;
+    --accent-foreground: 255, 255, 255;
+    
+    --background: 15, 23, 42;
+    --background-secondary: 23, 32, 61;
+    --foreground: 255, 255, 255;
+    
+    --card: 30, 41, 59;
+    --card-foreground: 255, 255, 255;
+    
+    --success: 34, 197, 94;
+    --warning: 245, 158, 11;
+    --error: 239, 68, 68;
+    
+    --muted: 51, 65, 85;
+    --muted-foreground: 148, 163, 184;
+    
+    --border: 51, 65, 85;
+  }
+  /* Theme 4: Purple & Dark Blue */
+[data-theme="theme4"] {
+  --primary: 100, 149, 237;             /* Cornflower Blue */
+  --primary-foreground: 255, 255, 255;
+
+  --secondary: 72, 61, 139;             /* Dark Slate Blue */
+  --secondary-foreground: 255, 255, 255;
+
+  --accent: 255, 140, 0;               /* Dark Orange */
+  --accent-foreground: 0, 0, 0;
+
+  --background: 18, 18, 18;            /* Dark Charcoal */
+  --background-secondary: 28, 28, 28;  /* Slightly lighter dark */
+  --foreground: 245, 245, 245;         /* Light Gray Text */
+
+  --card: 33, 33, 33;                  /* Dark Card */
+  --card-foreground: 255, 255, 255;
+
+  --success: 34, 197, 94;              /* Green */
+  --warning: 255, 193, 7;              /* Amber */
+  --error: 220, 53, 69;                /* Red */
+
+  --muted: 64, 64, 64;                 /* Muted Dark */
+  --muted-foreground: 160, 160, 160;
+
+  --border: 60, 60, 60;                /* Subtle Border */
+}
+
+[data-theme="theme5"] {
+  --primary: 0, 255, 0;                /* Hacker Green */
+  --primary-foreground: 0, 0, 0;
+
+  --secondary: 0, 100, 0;              /* Darker Green */
+  --secondary-foreground: 0, 0, 0;
+
+  --accent: 0, 255, 128;               /* Neon Green Accent */
+  --accent-foreground: 0, 0, 0;
+
+  --background: 0, 0, 0;               /* True Black */
+  --background-secondary: 10, 10, 10;  /* Slightly lighter black */
+
+  --foreground: 0, 255, 0;             /* Bright Green Text */
+
+  --card: 8, 8, 8;                     /* Terminal Card */
+  --card-foreground: 0, 255, 0;
+
+  --success: 0, 255, 0;                /* Terminal Green */
+  --warning: 255, 255, 0;              /* Yellow Warning */
+  --error: 255, 0, 0;                  /* Red Error */
+
+  --muted: 40, 40, 40;                 /* Dark Muted */
+  --muted-foreground: 0, 200, 0;       /* Dim Green */
+
+  --border: 0, 200, 0;                 /* Subtle Neon Border */
+}
+
+
+  body {
+    @apply text-foreground bg-background font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 relative inline-block;
+  }
+  
+  .section-title::after {
+    content: "";
+    @apply absolute -bottom-2 left-0 w-16 h-1 bg-primary rounded-full;
+  }
+  
+  .glass-card {
+    @apply rounded-xl backdrop-blur-md bg-opacity-20 border border-opacity-30 shadow-lg;
+    background-color: rgba(var(--card), 0.15);
+    border-color: rgba(var(--border), 0.3);
+  }
+  
+  .button-primary {
+    @apply px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium transition-all duration-300 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  }
+  
+  .button-secondary {
+    @apply px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium transition-all duration-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50;
+  }
+  
+  .button-outline {
+    @apply px-6 py-3 bg-transparent border border-primary text-foreground rounded-lg font-medium transition-all duration-300 hover:bg-primary hover:text-primary-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  }
+
+  .nav-link {
+    @apply relative font-medium text-foreground hover:text-primary transition-colors duration-300;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 ease-in-out;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .social-icon {
+    @apply text-muted-foreground hover:text-primary transition-colors duration-300;
+  }
+}
