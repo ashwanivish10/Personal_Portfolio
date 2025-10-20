@@ -1,0 +1,39 @@
+ASHWANI VISHWAKARMA
+BBD Green City , Lucknow ,Uttarpradesh | +91-9129333705 | sshwani59@gmail.com
+CAREER SUMMARY:
+
+An enthusiastic and driven computer science student with strong problem-solving and communication skills. Proficient in C++, C, and Python, and equipped with a Machine Learning certification. Adaptable, collaborative, and eager to tackle complex technical challenges.
+
+WORK EXPERIENCE:
+Microsoft & SAP-AICTE Internship (via Edunet Foundation)
+AI Intern | 12 November, 2024 - December, 2024
+Implemented an ML model for image classification using Python, TensorFlow, and Keras. Preprocessed and augmented datasets to enhance model accuracy.
+Optimized model performance through hyperparameter tuning and regularization. Prepared technical reports and presented results to mentors.
+
+RELEVANT PROJECTS:
+Invoice Generator
+Independent Developer | 16 June, 2025 - 11 July, 2025
+Enabled users to create, edit, and download professional invoices seamlessly.
+Integrated real-time calculations for tax and discounts to enhance accuracy and usability. Designed a responsive interface for optimal user experience across devices.
+
+EDUCATION:
+2022 - 2026 | Babu Banarasi Das University
+Bachelor of Computer Science - Software Engineering
+2021 - 2022 | ATL Public School
+Higher Secondary Education
+2019 - 2020 | Springer Public School
+Secondary Education
+
+SKILLS:
+Programming Languages: C++, C, Python Web Development: HTML, CSS, JavaScript
+Data Structures & Algorithms (DSA): Proficient in implementing and analyzing algorithms Tools & Technologies: Git, VS Code, or node.js
+
+ACHIEVEMENT:
+Completed the GE Aerospace Supply Chain Job Simulation on Forage, focusing on disassembly procedures, defect analysis, and engineering data application (Sept 2024).
+Completed the Tata Cybersecurity Security Analyst Job Simulation on Forage, gaining expertise in IAM principles, cybersecurity best practices, and delivering comprehensive technical documentation and presentations (Nov 2024).
+
+SOFT SKILLS:
+Leadership
+Interpersonal relationship skill Time management
+Creativity Problem-Solving Teamwork
+Conflict Resolution
