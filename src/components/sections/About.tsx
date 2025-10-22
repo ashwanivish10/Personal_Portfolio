@@ -147,7 +147,7 @@ const About = () => {
                   className="absolute left-0 top-0 w-0.5" 
                   style={{
                     height: progressHeight, 
-                    background: `linear-gradient(to bottom, #22d3ee, #6366f1, #a855f7)`,
+                      background: `var(--primary)`
                     boxShadow: `
                       0 0 15px rgba(99,102,241,0.5),
                       0 0 25px rgba(168,85,247,0.3)
