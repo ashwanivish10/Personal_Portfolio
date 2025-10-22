@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 
-type Theme = 'theme1' | 'theme2' | 'theme3' |'theme4' | 'theme5'| 'theme6';
+type Theme = 'theme1' | 'theme2' | 'theme3' |'theme4' |  'theme6';
 
 interface ThemeContextType {
   theme: Theme;
@@ -34,8 +34,6 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
         case 'theme3':
           return 'theme4';
         case 'theme4':
-          return 'theme5';
-        case 'theme5':
           return 'theme6';
         case 'theme6':
           return 'theme1';
