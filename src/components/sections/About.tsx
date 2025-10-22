@@ -146,13 +146,9 @@ const About = () => {
                   // 2. Changed left-[-1px] to left-0
                   className="absolute left-0 top-0 w-0.5" 
                   style={{
-                    height: progressHeight, 
-                      background: `var(--primary)`
-                    boxShadow: `
-                      0 0 15px rgba(99,102,241,0.5),
-                      0 0 25px rgba(168,85,247,0.3)
-                    `,
-                  }}
+  height: progressHeight, 
+  background: `var(--primary)`
+}}
                 />
 
                 {/* 6. This is the new ANIMATED GLOWING BALL ("COMET") */}
