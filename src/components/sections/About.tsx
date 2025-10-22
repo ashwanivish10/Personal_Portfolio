@@ -147,7 +147,7 @@ const About = () => {
                   className="absolute left-0 top-0 w-0.5" 
                   style={{
   height: progressHeight, 
-  background-color: var(--primary)
+  backgroundColor: "var(--primary)",
 }}
                 />
 
