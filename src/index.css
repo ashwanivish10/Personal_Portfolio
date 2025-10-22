@@ -36,43 +36,43 @@
 } */
 
 
-  /* Theme 1: Blue Shades (Color Hunt Palette) */
+  /* Theme 1: Custom Palette */
 [data-theme="theme1"] {
-  /* प्राइमरी/एक्शन कलर (ब्राइट ब्लू) - बटन्स, लिंक्स के लिए */
-  --primary: 99, 108, 203;              /* #636CCB */
+  /* प्राइमरी/एक्शन कलर (ओरेंज) - बटन्स, लिंक्स के लिए */
+  --primary: 248, 123, 27;            /* #F87B1B */
   /* प्राइमरी कलर के ऊपर का टेक्स्ट (सफ़ेद) */
-  --primary-foreground: 255, 255, 255;  /* #FFFFFF */
+  --primary-foreground: 255, 255, 255; /* #FFFFFF */
 
-  /* मुख्य बैकग्राउंड (लाइट ब्लू टिंट) */
-  --background: 110, 140, 251;          /* #6E8CFB */
-  /* सेकेंडरी बैकग्राउंड (थोड़ा गहरा, कॉन्ट्रास्ट के लिए) */
-  --background-secondary: 80, 88, 156;  /* #50589C */
+  /* मुख्य बैकग्राउंड (बहुत हल्का ग्रे) */
+  --background: 238, 238, 238;        /* #EEEEEE */
+  /* सेकेंडरी बैकग्राउंड (हल्का ग्रीन टिंट) */
+  --background-secondary: 203, 217, 155; /* #CBD99B */
   
-  /* मुख्य टेक्स्ट का कलर (डार्क ब्लू) */
-  --foreground: 60, 70, 123;            /* #3C467B */
+  /* मुख्य टेक्स्ट का कलर (डार्क नेवी ब्लू) */
+  --foreground: 17, 34, 78;           /* #11224E */
   
   /* कार्ड्स का बैकग्राउंड (सफ़ेद) */
   --card: 255, 255, 255;
-  /* कार्ड्स के ऊपर का टेक्स्ट (डार्क ब्लू) */
-  --card-foreground: 60, 70, 123;       /* #3C467B */
+  /* कार्ड्स के ऊपर का टेक्स्ट (डार्क नेवी ब्लू) */
+  --card-foreground: 17, 34, 78;       /* #11224E */
   
-  /* कम ज़रूरी टेक्स्ट का कलर (हल्का नीला ग्रे) */
-  --muted-foreground: 140, 150, 200;
-  
-  /* बॉर्डर्स का कलर (लाइट ब्लू टोन) */
-  --border: 99, 108, 203;               /* #636CCB */
+  /* कम ज़रूरी टेक्स्ट का कलर (म्यूट ग्रीन-ग्रे) */
+  --muted-foreground: 140, 155, 120;   /* approx for muted tone */
+
+  /* बॉर्डर्स का कलर (हल्का ग्रीन-टिंट) */
+  --border: 203, 217, 155;             /* #CBD99B */
 
   /* बाकी कलर्स */
-  --secondary: 80, 88, 156;             /* #50589C */
-  --secondary-foreground: 255, 255, 255;
+  --secondary: 203, 217, 155;          /* #CBD99B */
+  --secondary-foreground: 17, 34, 78;  /* #11224E */
 
-  --accent: 110, 140, 251;              /* #6E8CFB */
-  --accent-foreground: 255, 255, 255;
+  --accent: 248, 123, 27;              /* #F87B1B */
+  --accent-foreground: 255, 255, 255;  /* #FFFFFF */
 
-  --success: 34, 197, 94;               /* Green */
-  --warning: 245, 158, 11;              /* Yellow */
-  --error: 239, 68, 68;                 /* Red */
-  --muted: 240, 240, 255;               /* Very light blue tint */
+  --success: 34, 197, 94;              /* Green – unchanged */
+  --warning: 245, 158, 11;             /* Yellow – unchanged */
+  --error: 239, 68, 68;                /* Red – unchanged */
+  --muted: 238, 238, 238;              /* Very light grey – adjusted */
 }
 
   /* Theme 2: Party Popper Vibe (Light Theme) */
