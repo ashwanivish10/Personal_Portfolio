@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Moon, Sun, PartyPopper, Shell, Cpu , PartyPopper } from 'lucide-react';
+import { Moon, Sun, PartyPopper, Shell, Cpu } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../../context/ThemeContext';
 // import HackerPopup from '../common/HackerPopup'; // ✅ correct import path
@@ -39,10 +39,9 @@ const ThemeToggle = () => {
         return <Moon size={20} />;
       case 'theme4':
         return <Shell size={20} />;
-      case 'theme5':
-        return <Cpu size={20} />;
       case 'theme6':
-        return <PartyPopper size={20} />;
+        return <Cpu size={20} />;
+      
       
       default:
         return <Sun size={20} />;
