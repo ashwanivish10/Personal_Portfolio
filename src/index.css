@@ -178,7 +178,7 @@
 }
 
 /* Theme 6: Midnight Neon */
-[data-theme="theme2"] {
+[data-theme="theme6"] {
   /* Primary (Electric Blue) - Buttons & Links */
   --primary: 56, 189, 248;              /* #38BDF8 */
   --primary-foreground: 15, 23, 42;     /* #0F172A */
